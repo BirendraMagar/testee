@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<!-- This website was created by: Birendra Rana Magar -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>100SMILES Dental Care</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="images/svg/dental-plus.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- Header -->
+      <header class="header">
+        <div class="container">
+          <div class="header-content">
+            <a href="index.html" class="logo-link">
+              <div class="logo">
+                <img
+                  src="images/svg/dental-plus.svg"
+                  alt="Dental Logo"
+                  height="24"
+                  width="24"
+                />
+                <h2>100SMILES Dental Care</h2>
+              </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="nav-menu">
+              <a href="index.html">Home</a>
+              <a href="services.html">Services</a>
+              <a href="team.html">Our Team</a>
+              <a href="contact.html">Contact Us</a>
+              <a href="blog.html">Blog</a>
+            </nav>
+
+            <div class="header-actions">
+              <a href="booking.html" class="btn btn-primary"
+                >Book Appointment</a
+              >
+
+              <!-- Mobile Menu Toggle -->
+              <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Toggle menu"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Mobile Menu Overlay -->
+      <div class="menu-overlay" id="menuOverlay"></div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+          <div class="logo">
+            <img
+              src="images/svg/dental-plus.svg"
+              alt="Dental Logo"
+              height="24"
+              width="24"
+            />
+            <h2>100SMILES</h2>
+          </div>
+          <button
+            class="mobile-menu-close"
+            id="menuClose"
+            aria-label="Close menu"
+          >
+            <span class="material-symbols-outlined">close</span>
+          </button>
+        </div>
+
+        <nav class="mobile-menu-nav">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="team.html">Our Team</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="blog.html">Blog</a>
+        </nav>
+
+        <div class="mobile-menu-cta">
+          <a href="booking.html" class="btn btn-primary">Book Appointment</a>
+        </div>
+      </div>
+
+      <main>
+        <!-- Hero Section -->
+        <section
+          class="hero"
+          style="background-image: url('images/dental_clinic_hero.jpeg')"
+        >
+          <div class="hero-overlay"></div>
+          <div class="container">
+            <div class="hero-content">
+              <h1>Your Smile, Our Passion</h1>
+              <p>
+                For over three decades, 100SMILES Dental Care has been a
+                cornerstone of the Cairnville community. With over 50 years of
+                combined dental experience and cutting-edge technology, we
+                provide comprehensive, compassionate care—from routine check-ups
+                to advanced cosmetic procedures. Now with convenient online
+                booking and state-of-the-art dental technologies, ensuring every
+                patient leaves with a confident, healthy smile has never been
+                easier.
+              </p>
+              <a href="services.html" class="link-contact">
+                <button class="btn btn-primary">Discover Our Services</button>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Advanced Technologies Section -->
+        <section class="services">
+          <div class="container">
+            <div class="section-header">
+              <h2>Our Advanced Dental Technologies</h2>
+              <p>
+                At 100SMILES, we stay at the forefront of dental innovation. Our
+                state-of-the-art technologies ensure precise diagnoses,
+                minimally invasive treatments, and superior patient care.
+              </p>
+            </div>
+            <div class="services-grid">
+              <div class="service-card2">
+                <img
+                  src="images/Digital X-Ray.jpeg"
+                  alt="Digital X-Rays"
+                  height="24"
+                  width="24"
+                />
+                <h3>Digital X-Rays</h3>
+                <p>
+                  High-resolution imaging with significantly less radiation for
+                  quicker, more accurate diagnoses.
+                </p>
+              </div>
+              <div class="service-card2">
+                <img
+                  src="images/Intraoral Cameras.jpeg"
+                  alt="Intraoral Cameras"
+                  height="36"
+                  width="40"
+                />
+                <h3>Intraoral Cameras</h3>
+                <p>
+                  Detailed views of your mouth for early detection and better
+                  treatment explanations.
+                </p>
+              </div>
+              <div class="service-card2">
+                <img
+                  src="images/Laser Dentistry.jpeg"
+                  alt="Laser Dentistry"
+                  height="36"
+                  width="40"
+                />
+                <h3>Laser Dentistry</h3>
+                <p>
+                  Minimally invasive procedures with reduced pain and faster
+                  healing times.
+                </p>
+              </div>
+              <div class="service-card2">
+                <img
+                  src="images/CAD_CAM.jpeg"
+                  alt="CAD/CAM Technology"
+                  height="36"
+                  width="40"
+                />
+                <h3>CAD/CAM Technology</h3>
+                <p>
+                  Custom dental restorations like crowns and veneers created in
+                  a single visit.
+                </p>
+              </div>
+              <div class="service-card2">
+                <img
+                  src="images/3D_Print.jpeg"
+                  alt="3D Printing"
+                  height="32"
+                  width="32"
+                />
+                <h3>3D Printing</h3>
+                <p>
+                  Accurate dental models and surgical guides for precise
+                  treatment planning.
+                </p>
+              </div>
+              <div class="service-card2">
+                <img
+                  src="images/Teledentistry.jpeg"
+                  alt="Teledentistry"
+                  height="32"
+                  width="32"
+                />
+                <h3>Teledentistry</h3>
+                <p>
+                  Convenient virtual consultations from the comfort of your
+                  home.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact & Announcements Section -->
+        <section class="contact-section">
+          <div class="container">
+            <div class="contact-grid">
+              <div class="contact-info">
+                <h2>Contact & Hours</h2>
+                <div class="info-content">
+                  <p>
+                    <strong>Address:</strong> 33 Fantail Street, Razole,
+                    Queensland.
+                  </p>
+                  <p>
+                    <strong>Phone (Main):</strong>
+                    <a href="tel:0750005599" class="contact-item-link"
+                      >07 5000 5599</a
+                    >
+                  </p>
+                  <p>
+                    <strong>Phone (Free Checkup):</strong>
+                    <a href="tel:0713275599" class="contact-item-link"
+                      >07 1327 5599</a
+                    >
+                  </p>
+                  <p><strong>Fax:</strong> 07 4567 9999</p>
+                  <p>
+                    <strong>Email:</strong>
+                    <a
+                      href="mailto:admin@100smilesdentalcare.com.au"
+                      class="contact-item-link"
+                      >admin@100smilesdentalcare.com.au</a
+                    >
+                  </p>
+                  <div class="hours">
+                    <p><strong>Trading Hours:</strong></p>
+                    <p>Monday - Friday: 8:30 AM - 6:30 PM</p>
+                    <p>Saturday - Sunday: 8:30 AM - 1:00 PM</p>
+                  </div>
+                </div>
+              </div>
+              <div class="announcements">
+                <h2>Announcements</h2>
+                <div class="announcement-item">
+                  <p class="announcement-title">
+                    25% Discount When You Book Online!
+                  </p>
+                  <p>
+                    Book your next dental visit through our online booking
+                    system and enjoy a special 25% discount. Convenient
+                    scheduling, great savings!
+                    <a
+                      href="booking.html"
+                      style="color: var(--primary); font-weight: 600"
+                      >Book Now -></a
+                    >
+                  </p>
+                </div>
+                <div class="announcement-item">
+                  <p class="announcement-title">
+                    Free Dental Checkup - Saturday, July 5th at 9 AM!
+                  </p>
+                  <p>
+                    Join us for a complimentary dental checkup! Limited slots
+                    available.
+                    <a
+                      href="free-checkup.html"
+                      style="color: var(--primary); font-weight: 600"
+                      >Learn more -></a
+                    >
+                  </p>
+                </div>
+                <div class="announcement-item">
+                  <p class="announcement-title">
+                    10% Off Annual Dental Check-Up!
+                  </p>
+                  <p>
+                    Book your annual check-up before April 30th and receive a
+                    10% discount. Proactive care for a lasting smile!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Knowledge Center Section -->
+        <section class="knowledge">
+          <div class="container">
+            <div class="section-header">
+              <h2>Knowledge Center</h2>
+              <p>
+                Informing our community is part of our commitment. Explore our
+                articles to learn more about dental health.
+              </p>
+            </div>
+            <div class="blog-grid">
+              <div class="blog-card">
+                <img src="images/dental_checkup.jpeg" alt="Dental Check-Up" />
+                <h3>The Importance of Regular Dental Check-Ups</h3>
+                <a
+                  href="https://www.qld.gov.au/health/staying-healthy/oral-health/visiting-the-dentist/regular-dental-check-ups"
+                  target="_blank"
+                  >Read More -></a
+                >
+              </div>
+              <div class="blog-card">
+                <img src="images/oral_hygiene.jpeg" alt="Oral Hygiene" />
+                <h3>Tips for Maintaining Oral Hygiene</h3>
+                <a
+                  href="https://my.clevelandclinic.org/health/treatments/16914-oral-hygiene"
+                  target="_blank"
+                  >Read More -></a
+                >
+              </div>
+              <div class="blog-card">
+                <img src="images/dental_implants.jpeg" alt="Dental Implants" />
+                <h3>Understanding Dental Implants</h3>
+                <a
+                  href="https://www.healthdirect.gov.au/dental-implant"
+                  target="_blank"
+                  >Read More -></a
+                >
+              </div>
+              <div class="blog-card">
+                <img
+                  src="images/toothbrush_selection.jpeg"
+                  alt="Toothbrush Selection"
+                />
+                <h3>How to Choose the Right Toothbrush</h3>
+                <a
+                  href="https://www.colgate.com.au/oral-health/selecting-dental-products/choosing-the-right-toothbrush"
+                  target="_blank"
+                  >Read More -></a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-info">
+              <div class="footer-logo">
+                <img
+                  src="images/svg/dental-plus.svg"
+                  alt="Dental Logo"
+                  height="20"
+                  width="20"
+                />
+                <span>100SMILES Dental Care</span>
+              </div>
+              <p class="footer-tagline">Your Smile, Our Passion</p>
+            </div>
+            <div class="footer-contact">
+              <p>
+                <strong>Phone:</strong>
+                <a href="tel:0750005599">07 5000 5599</a>
+              </p>
+              <p>
+                <strong>Email:</strong>
+                <a href="mailto:admin@100smilesdentalcare.com.au"
+                  >admin@100smilesdentalcare.com.au</a
+                >
+              </p>
+              <p>
+                <strong>Address:</strong> 33 Fantail Street, Razole, Queensland
+              </p>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2025 100SMILES Dental Care. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
